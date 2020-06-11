@@ -5,56 +5,8 @@
   #include "myanalyzer.tab.h"
   #include "cgen.h"
   
- // extern int yylex(void);
-  int line_num = 1;
-
-// #define TK_POSINT 253;
-// #define TK_IDENT 254;
-// #define TK_NUMBER 255;
-// #define TK_STRING 256;
-
-// #define KW_START 257;
-// #define KW_CONST 258;
-// #define KW_VAR 259;
-// #define KW_VOID 260;
-// #define KW_NUMBER 261;
-// #define KW_STRING 262;
-// #define KW_FUNCTION 263;
-
-
-
-// #define TK_ASSIGN 264;
-
-//   #define          KW_BOOLEAN 265;
-//   #define          KW_TRUE 266;
-//   #define          KW_FALSE 267;
-//   #define          KW_IF 268;
-//   #define          KW_ELSE 269;
-//   #define          KW_FOR 270;
-//   #define          KW_WHILE 271;
-//   #define          KW_BREAK 272;
-//   #define          KW_CONTINUE 273;
-//   #define          KW_NOT 274;
-//   #define          KW_AND 275;
-//   #define          KW_OR 276;
-//   #define          KW_RETURN 277;
-//   #define          KW_NULL 278;
-
-  
-//   #define          TK_POW 289;
-//   #define          TK_EQUAL 290;
-//   #define          TK_DIF 291;
-//   #define          TK_EQLESS 293;
  
-
-  
-
-/*
-#define  KW_READ_STRING 
-#define  KW_READ_NUMBER 
-#define  KW_WRITE_STRING 
-#define  KW_WRITE_NUMBER 
-*/
+  int line_num = 1;
 
 
 %}
